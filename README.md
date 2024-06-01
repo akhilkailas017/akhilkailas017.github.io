@@ -1,5 +1,5 @@
 # Personal_website
 
 ```
-https://akhilkailas017.github.io//
+https://akhilkailas017.github.io/
 ```
