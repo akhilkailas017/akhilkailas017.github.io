@@ -34,7 +34,7 @@ const Skills = () => {
             key={index}
             className="w-36 h-36 m-6 transform transition duration-500 hover:scale-110 hover:shadow-2xl flex flex-col items-center justify-center bg-white rounded-full shadow-lg p-4"
           >
-            <img src={skill.imgUrl} alt={skill.name} className="w-20 h-20 object-contain" />
+            <img src={skill.imgUrl} alt={skill.name} className="w-20 h-20 object-contain" loading="lazy" />
             <h4 className="text-center mt-4 text-gray-800 font-semibold">{skill.name}</h4>
           </div>
         ))}
