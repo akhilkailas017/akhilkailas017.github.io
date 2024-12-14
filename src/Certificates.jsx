@@ -31,22 +31,29 @@ const Certificates = () => {
   ];
 
   return (
-    <section id="certificates" className=" bg-gradient-to-b from-indigo-600 to-purple-700 py-16">
-      <h2 className="text-5xl font-extrabold text-white text-center mb-12">Certificates</h2>
+    <section id="certificates" className="bg-gradient-to-b from-gray-900 via-black to-gray-800 py-16">
+      <h2 className="text-5xl font-extrabold text-[#fafafa] text-center mb-12 drop-shadow-neon">
+        Certificates
+      </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto px-4">
         {certificates.map((cert, index) => (
           <div
             key={index}
-            className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-2xl transform transition duration-500 hover:scale-105"
+            className="bg-opacity-80 bg-gray-900 shadow-lg rounded-lg overflow-hidden p-4 drop-shadow-neon"
           >
-            <img src={cert.imgUrl} alt={cert.name} className="w-full h-52 object-cover" loading="lazy" />
+            <img
+              src={cert.imgUrl}
+              alt={cert.name}
+              className="w-full h-52 object-cover"
+              loading="lazy"
+            />
             <div className="p-6">
-              <h4 className="text-xl text-gray-800 font-semibold mb-4">{cert.name}</h4>
+              <h4 className="text-xl text-gray-300 font-semibold mb-4">{cert.name}</h4>
               <a
                 href={cert.pdfUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-indigo-500 hover:text-indigo-700 font-medium"
+                className="text-[#fafafa] font-medium"
                 download
               >
                 View & Download PDF
@@ -60,3 +67,13 @@ const Certificates = () => {
 };
 
 export default Certificates;
+
+/* Tailwind CSS Custom Styles */
+<style jsx>{`
+  .drop-shadow-neon {
+    text-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14, 0 0 15px #39ff14;
+  }
+  .shadow-neon {
+    box-shadow: 0 0 15px #39ff14, 0 0 30px #39ff14, 0 0 45px #39ff14;
+  }
+`}</style>

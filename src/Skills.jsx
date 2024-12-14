@@ -26,16 +26,18 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className=" bg-gradient-to-b from-blue-600 to-purple-700 py-16">
-      <h2 className="text-5xl font-extrabold text-white text-center mb-12">Skills</h2>
+    <section id="skills" className="bg-gradient-to-b from-gray-900 via-black to-gray-800 py-16">
+      <h2 className="text-5xl font-extrabold text-[#fafafa] text-center mb-12 drop-shadow-neon">
+        Skills
+      </h2>
       <div className="flex flex-wrap justify-center max-w-5xl mx-auto">
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="w-36 h-36 m-6 transform transition duration-500 hover:scale-110 hover:shadow-2xl flex flex-col items-center justify-center bg-white rounded-full shadow-lg p-4"
+            className="w-36 h-36 m-6 flex flex-col items-center justify-center bg-opacity-80 bg-gray-900 rounded-full shadow-lg p-4 drop-shadow-neon"
           >
             <img src={skill.imgUrl} alt={skill.name} className="w-20 h-20 object-contain" loading="lazy" />
-            <h4 className="text-center mt-4 text-gray-800 font-semibold">{skill.name}</h4>
+            <h4 className="text-center mt-4 text-gray-300 font-semibold">{skill.name}</h4>
           </div>
         ))}
       </div>
@@ -44,3 +46,13 @@ const Skills = () => {
 };
 
 export default Skills;
+
+/* Tailwind CSS Custom Styles */
+<style jsx>{`
+  .drop-shadow-neon {
+    text-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14, 0 0 15px #39ff14;
+  }
+  .shadow-neon {
+    box-shadow: 0 0 15px #39ff14, 0 0 30px #39ff14, 0 0 45px #39ff14;
+  }
+`}</style>

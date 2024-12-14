@@ -2,6 +2,7 @@ import certidappimg from './assets/certidapp.png'
 import tripimg from './assets/tripmateimg.png'
 import yoloimg from './assets/yolo.png'
 import securaimg from './assets/secura.png'
+
 const Projects = () => {
   const projects = [
     {
@@ -36,23 +37,16 @@ const Projects = () => {
       imgUrl: securaimg,
       giturl:'https://github.com/akhilkailas017/Digital-Passport-Verification-System-Using-Blockchain.git'
     },
-    
-    
   ];
 
   return (
-    <section
-      id="projects"
-      className=" bg-gradient-to-r from-blue-600 to-purple-700 py-16 px-4"
-    >
-      <h2 className="text-5xl font-extrabold text-white text-center mb-12">
-        Projects
-      </h2>
+    <section id="projects" className="bg-gradient-to-r from-gray-900 via-black to-gray-800 py-16 px-4">
+      <h2 className="text-5xl font-extrabold text-[#fafafa] text-center mb-12 drop-shadow-neon">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-2xl transform transition duration-500 hover:scale-105"
+            className="bg-opacity-80 bg-gray-900 shadow-lg rounded-lg overflow-hidden p-4 drop-shadow-neon"
           >
             <img
               src={project.imgUrl}
@@ -62,12 +56,10 @@ const Projects = () => {
             />
             <div className="p-6">
               <a href={project.giturl}>
-              <h4 className="text-2xl font-semibold text-gray-800 mb-3">
-                {project.name}
-              </h4>
+                <h4 className="text-2xl font-semibold text-gray-300 mb-3">{project.name}</h4>
               </a>
-              <p className="text-gray-700 mb-4">{project.description}</p>
-              <p className="text-gray-700">
+              <p className="text-gray-300 mb-4">{project.description}</p>
+              <p className="text-gray-300">
                 <strong>Tech Stack:</strong> {project.techStack}
               </p>
             </div>
@@ -79,3 +71,13 @@ const Projects = () => {
 };
 
 export default Projects;
+
+/* Tailwind CSS Custom Styles */
+<style jsx>{`
+  .drop-shadow-neon {
+    text-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14, 0 0 15px #39ff14;
+  }
+  .shadow-neon {
+    box-shadow: 0 0 15px #39ff14, 0 0 30px #39ff14, 0 0 45px #39ff14;
+  }
+`}</style>
