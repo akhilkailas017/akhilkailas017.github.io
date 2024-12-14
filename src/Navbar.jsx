@@ -47,9 +47,9 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden transition-transform duration-300 ${
-          isMobileMenuOpen ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
-        }`}
+        className={`md:hidden transition-all duration-300 ease-in-out ${
+          isMobileMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
+        } overflow-hidden`}
         id="nav-content"
       >
         <ul className="px-6 pt-4 pb-4 space-y-4 bg-gradient-to-r from-blue-800 via-purple-700 to-pink-800 border-t border-pink-600">
@@ -58,7 +58,7 @@ const Navbar = () => {
               <li key={index}>
                 <a
                   href={`#${item.toLowerCase().replace(/ /g, "")}`}
-                  className="block text-white hover:text-pink-400 transition duration-300 drop-shadow-neon"
+                  className="block text-lg text-white hover:text-pink-400 transition duration-300"
                 >
                   {item}
                 </a>
@@ -72,13 +72,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-/* Tailwind CSS Custom Styles */
-<style jsx>{`
-  .neon-text {
-    text-shadow: 0 0 5px #ff0080, 0 0 10px #ff0080, 0 0 20px #ff0080, 0 0 30px #ff0080;
-  }
-  .drop-shadow-neon {
-    text-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14, 0 0 15px #39ff14;
-  }
-`}</style>

@@ -10,14 +10,12 @@ function App() {
   return (
     <>
       <Navbar />
-      {/* <main className="container mx-auto p-6 md:p-12"> */}
         <About />
         <Education />
         <Skills />
         <Certificates />
         <Projects />
         <Contact />
-      {/* </main> */}
     </>
   );
 }
