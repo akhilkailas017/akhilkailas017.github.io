@@ -1,3 +1,6 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 import debcertimg from './assets/Developer-Essentials-for-Blockchain.jpg';
 import debcertpdf from './assets/Developer-Essentials-for-Blockchain.pdf';
 import bfpcertimg from './assets/blockchain-foundation-program.jpg';
@@ -41,11 +44,11 @@ const Certificates = () => {
             key={index}
             className="bg-opacity-80 bg-gray-900 shadow-lg rounded-lg overflow-hidden p-4 drop-shadow-neon"
           >
-            <img
+            <LazyLoadImage
               src={cert.imgUrl}
               alt={cert.name}
+              effect="blur"
               className="w-full h-52 object-cover"
-              loading="lazy"
             />
             <div className="p-6">
               <h4 className="text-xl text-gray-300 font-semibold mb-4">{cert.name}</h4>

@@ -1,3 +1,6 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 import jslogo from './assets/javascript.png';
 import htmllogo from './assets/html.png';
 import csslogo from './assets/css.png';
@@ -36,7 +39,12 @@ const Skills = () => {
             key={index}
             className="w-36 h-36 m-6 flex flex-col items-center justify-center bg-opacity-80 bg-gray-900 rounded-full shadow-lg p-4 drop-shadow-neon"
           >
-            <img src={skill.imgUrl} alt={skill.name} className="w-20 h-20 object-contain" loading="lazy" />
+            <LazyLoadImage
+              src={skill.imgUrl}
+              alt={skill.name}
+              effect="blur"
+              className="w-20 h-20 object-contain"
+            />
             <h4 className="text-center mt-4 text-gray-300 font-semibold">{skill.name}</h4>
           </div>
         ))}

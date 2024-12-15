@@ -1,7 +1,9 @@
-import certidappimg from './assets/certidapp.png'
-import tripimg from './assets/tripmateimg.png'
-import yoloimg from './assets/yolo.png'
-import securaimg from './assets/secura.png'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+import certidappimg from './assets/certidapp.png';
+import tripimg from './assets/tripmateimg.png';
+import yoloimg from './assets/yolo.png';
+import securaimg from './assets/secura.png';
 
 const Projects = () => {
   const projects = [
@@ -11,7 +13,7 @@ const Projects = () => {
         "The Certificate DApp is a decentralized application that allows the issuance and verification of certificates securely on the blockchain. This DApp leverages Ethereum blockchain technology and smart contracts to ensure the integrity and authenticity of issued certificates. Built using React for the frontend and Solidity for the smart contract, this project ensures that certificate data remains tamper-proof and accessible to everyone.",
       techStack: "React, Solidity , Metamask",
       imgUrl: certidappimg,
-      giturl:'https://github.com/akhilkailas017/Certificate-dApp.git'
+      giturl: 'https://github.com/akhilkailas017/Certificate-dApp.git'
     },
     {
       name: "Tripmate Ride Sharing App",
@@ -19,7 +21,7 @@ const Projects = () => {
         "A modern ride-sharing application built with the MERN stack, designed to connect drivers and passengers seamlessly. Features include user authentication, ride offering and booking, ride history, profile management, and an admin panel for managing users and complaints.",
       techStack: "React, Node.js, Express.js, MongoDB, Docker",
       imgUrl: tripimg,
-      giturl:'https://github.com/akhilkailas017/Tripmate-Ride-Sharing-App.git'
+      giturl: 'https://github.com/akhilkailas017/Tripmate-Ride-Sharing-App.git'
     },
     {
       name: "Floor Mat Detection and Classification",
@@ -27,7 +29,7 @@ const Projects = () => {
         "A Python-based real-time detection and classification system using YOLOv5, focused on identifying different types of floor mats with precision.",
       techStack: "Python, Yolo-V5, Labelimg",
       imgUrl: yoloimg,
-      giturl:'https://github.com/akhilkailas017/Object-Detection-using-Yolov5.git'
+      giturl: 'https://github.com/akhilkailas017/Object-Detection-using-Yolov5.git'
     },
     {
       name: "Digital Passport Verification System Using Blockchain",
@@ -35,7 +37,7 @@ const Projects = () => {
         "A web-based application developed with Solidity, ReactJs, and EtherJs, aiming to revolutionize passport verification by utilizing the security of blockchain technology.",
       techStack: "React, Solidity , Metamask",
       imgUrl: securaimg,
-      giturl:'https://github.com/akhilkailas017/Digital-Passport-Verification-System-Using-Blockchain.git'
+      giturl: 'https://github.com/akhilkailas017/Digital-Passport-Verification-System-Using-Blockchain.git'
     },
   ];
 
@@ -48,10 +50,12 @@ const Projects = () => {
             key={index}
             className="bg-opacity-80 bg-gray-900 shadow-lg rounded-lg overflow-hidden p-4 drop-shadow-neon"
           >
-            <img
+            <LazyLoadImage
               src={project.imgUrl}
               alt={project.name}
-              loading="lazy"
+              effect="blur"
+              height="224px"
+              width="100%"
               className="w-full h-56 object-cover"
             />
             <div className="p-6">
