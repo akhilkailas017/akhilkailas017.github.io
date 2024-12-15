@@ -12,6 +12,7 @@ import nodelogo from './assets/node.png';
 import mongologo from './assets/MongoDB1.jpg';
 import dockerlogo from './assets/docker.png';
 import soliditylogo from './assets/solidity.png';
+import hyperledgerlogo from './assets/hyperledger_fabric.png'
 
 const Skills = () => {
   const skills = [
@@ -26,6 +27,7 @@ const Skills = () => {
     { name: "MongoDB", imgUrl: mongologo },
     { name: "Docker", imgUrl: dockerlogo },
     { name: "Solidity", imgUrl: soliditylogo },
+    { name: "Hyperledger Fabric", imgUrl: hyperledgerlogo },
   ];
 
   return (

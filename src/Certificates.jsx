@@ -1,6 +1,5 @@
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-
 import debcertimg from './assets/Developer-Essentials-for-Blockchain.jpg';
 import debcertpdf from './assets/Developer-Essentials-for-Blockchain.pdf';
 import bfpcertimg from './assets/blockchain-foundation-program.jpg';
@@ -19,18 +18,33 @@ import bmwimg from './assets/buildmyweb1.jpg';
 import bmwpdf from './assets/buildmyweb1.pdf';
 import aiimg from './assets/ai.jpg';
 import aipdf from './assets/ai.pdf';
+import blockhackpdf from './assets/blockhack2024.pdf';
+import blockhackimg from './assets/blockhack2024.jpg';
+import certifiedBlockchainAssociatepdf from './assets/CertifiedBlockchainAssociate.pdf';
+import certifiedBlockchainAssociateimg from './assets/CertifiedBlockchainAssociate.jpg';
+import certifiedHyperledgerFabricDeveloperimg from './assets/certifiedHyperledgerFabricDeveloper.jpg';
+import certifiedHyperledgerFabricDeveloperpdf from './assets/certifiedHyperledgerFabricDeveloper.pdf';
+import ethereumFundamentalsimg from './assets/ethereumFundamentals.jpg';
+import ethereumFundamentalspdf from './assets/ethereumFundamentals.pdf';
+import devconimg from './assets/Devcon.jpg';
+import devconpdf from './assets/Devcon.pdf';
 
 const Certificates = () => {
   const certificates = [
+    { name: "Certified HyperledgerFabric Developer", imgUrl: certifiedHyperledgerFabricDeveloperimg, pdfUrl: certifiedHyperledgerFabricDeveloperpdf },
     { name: "Developer Essentials for Blockchain", imgUrl: debcertimg, pdfUrl: debcertpdf },
+    { name: "Certified Blockchain Associate", imgUrl: certifiedBlockchainAssociateimg, pdfUrl: certifiedBlockchainAssociatepdf },
+    { name: "Ethereum Fundamentals", imgUrl: ethereumFundamentalsimg, pdfUrl: ethereumFundamentalspdf },
     { name: "Blockchain Foundation Program", imgUrl: bfpcertimg, pdfUrl: bfpcertpdf },
+    { name: "Block Hack 2024", imgUrl: blockhackimg, pdfUrl: blockhackpdf },
+    { name: "Road to Devcon", imgUrl: devconimg, pdfUrl: devconpdf },
     { name: "Python Data Structures", imgUrl: pdsimg, pdfUrl: pdspdf },
     { name: "Programming for Everybody (Getting Started with Python)", imgUrl: pcertimg, pdfUrl: pcertpdf },
+    { name: "Buildmyweb", imgUrl: bmwimg, pdfUrl: bmwpdf },
+    { name: "AI for Everyone", imgUrl: aiimg, pdfUrl: aipdf },
     { name: "IT Security: Defense against the digital dark arts", imgUrl: itsimg, pdfUrl: itspdf },
     { name: "HTML and CSS for Beginners From Basic to Advance Udemy", imgUrl: hcbimg, pdfUrl: hcbpdf },
     { name: "CSS Bootstrap JavaScript PHP Full Stack Crash Course", imgUrl: cbjimg, pdfUrl: cbjpdf },
-    { name: "Buildmyweb", imgUrl: bmwimg, pdfUrl: bmwpdf },
-    { name: "AI for Everyone", imgUrl: aiimg, pdfUrl: aipdf },
   ];
 
   return (
