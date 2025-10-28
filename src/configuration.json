@@ -1,0 +1,183 @@
+{
+  "personal": {
+    "name": "John Doe",
+    "title": "Web & Blockchain Developer",
+    "description": "I build modern web applications and smart contracts using modern tech like MERN, TypeScript, Solidity and Hyperledger.",
+    "email": "john@example.com",
+    "location": "Bangalore, India"
+  },
+  "hero": {
+    "heading": "John Doe",
+    "subheading": "Web & Blockchain Developer",
+    "description": "I build modern web applications and smart contracts using modern tech like MERN, TypeScript, Solidity and Hyperledger.",
+    "primaryButtonText": "View My Work",
+    "primaryButtonLink": "#projects",
+    "secondaryButtonText": "Get In Touch",
+    "secondaryButtonLink": "#contact"
+  },
+  "skills": {
+    "categories": [
+      {
+        "title": "Development",
+        "color": "primary",
+        "skills": [
+          { "name": "JavaScript", "level": 95 },
+          { "name": "MEAN Stack", "level": 90 },
+          { "name": "TypeScript", "level": 85 },
+          { "name": "Tailwind CSS", "level": 92 }
+        ]
+      },
+      {
+        "title": "Blockchain Development",
+        "color": "accent",
+        "skills": [
+          { "name": "Solidity", "level": 88 },
+          { "name": "Hyperledger", "level": 80 },
+          { "name": "Smart Contracts", "level": 90 }
+        ]
+      }
+    ],
+    "otherTechnologies": [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "PostgreSQL",
+      "Docker",
+      "AWS",
+      "Git"
+    ]
+  },
+  "projects": [
+    {
+      "title": "DeFi Lending Platform",
+      "description": "A decentralized finance platform for peer-to-peer lending built with Solidity and React.",
+      "image": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
+      "tags": ["Solidity", "React", "Web3.js"],
+      "link": "#",
+      "color": "primary"
+    },
+    {
+      "title": "Full-Stack E-commerce",
+      "description": "A modern e-commerce platform built with MERN stack and TypeScript.",
+      "image": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
+      "tags": ["MongoDB", "Express", "React", "Node.js"],
+      "link": "#",
+      "color": "primary"
+    },
+    {
+      "title": "Supply Chain DApp",
+      "description": "A blockchain-based supply chain tracking system using Hyperledger Fabric.",
+      "image": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
+      "tags": ["Hyperledger", "Node.js", "Docker"],
+      "link": "#",
+      "color": "accent"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Frontend Engineer",
+      "company": "Acme Inc",
+      "period": "Mar 2022 - Present",
+      "responsibilities": [
+        "Lead frontend development for core web products",
+        "Improved performance and accessibility standards"
+      ]
+    },
+    {
+      "title": "Blockchain Developer",
+      "company": "Chain Labs",
+      "period": "Jan 2020 - Feb 2022",
+      "responsibilities": [
+        "Smart contract development and audits",
+        "DApp integrations with frontend clients"
+      ]
+    },
+    {
+      "title": "Junior Web Developer",
+      "company": "Digital Solutions LLC",
+      "period": "Jun 2018 - Feb 2020",
+      "responsibilities": [
+        "Built front-end interfaces with React and TypeScript",
+        "Maintained and updated existing codebases"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. Computer Science",
+      "institution": "University",
+      "period": "2016 - 2020",
+      "description": "Focus on algorithms, systems and distributed computing."
+    },
+    {
+      "degree": "B.Sc. Computer Science",
+      "institution": "University",
+      "period": "2016 - 2020",
+      "description": "Focus on algorithms, systems and distributed computing."
+    },
+    {
+      "degree": "B.Sc. Computer Science",
+      "institution": "University",
+      "period": "2016 - 2020",
+      "description": "Focus on algorithms, systems and distributed computing."
+    },
+    {
+      "degree": "B.Sc. Computer Science",
+      "institution": "University",
+      "period": "2016 - 2020",
+      "description": "Focus on algorithms, systems and distributed computing."
+    },
+    {
+      "degree": "B.Sc. Computer Science",
+      "institution": "University",
+      "period": "2016 - 2020",
+      "description": "Focus on algorithms, systems and distributed computing."
+    },
+    {
+      "degree": "B.Sc. Computer Science",
+      "institution": "University",
+      "period": "2016 - 2020",
+      "description": "Focus on algorithms, systems and distributed computing."
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Cloud Architect Certification",
+      "issuer": "AWS",
+      "year": "2022",
+      "description": "Focus on cost optimization and security.",
+      "image": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
+      "link": "https://example.com/certificate1",
+      "skills": ["AWS EC2", "S3", "RDS", "CloudFormation", "IAM"]
+    },
+    {
+      "title": "React Developer Certification",
+      "issuer": "Meta",
+      "year": "2021",
+      "description": "Advanced React concepts including hooks, context API, and performance optimization.",
+      "image": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
+      "link": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
+      "skills": []
+    }
+  ],
+  "contact": {
+    "heading": "Get in touch",
+    "description": "I'm available for freelance projects and full-time opportunities. Let's connect!",
+    "email": "john@example.com",
+    "location": "Bangalore, India"
+  },
+  "footer": {
+    "copyright": "© 2023 John Doe. All rights reserved.",
+    "builtWith": "Built with Lenis, Lazysizes, and Tailwind CSS"
+  },
+  "navigation": [
+    { "label": "Home", "href": "#home" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Experience", "href": "#experience" },
+    { "label": "Education", "href": "#education" },
+    { "label": "Certifications", "href": "#certifications" },
+    { "label": "Contact", "href": "#contact" }
+  ]
+}
