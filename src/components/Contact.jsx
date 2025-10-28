@@ -40,7 +40,7 @@ export default function Contact({ config }) {
                   id="name" 
                   required 
                   className="w-full p-3 rounded-lg bg-white/10 border border-white/20 focus:outline-none focus:ring-2 focus:ring-white/50" 
-                  placeholder="John Doe" 
+                  placeholder=" " 
                 />
               </div>
               <div>
@@ -51,7 +51,7 @@ export default function Contact({ config }) {
                   type="email" 
                   required 
                   className="w-full p-3 rounded-lg bg-white/10 border border-white/20 focus:outline-none focus:ring-2 focus:ring-white/50" 
-                  placeholder="john@example.com" 
+                  placeholder="abc@example.com" 
                 />
               </div>
               <div>
@@ -62,7 +62,7 @@ export default function Contact({ config }) {
                   rows="5" 
                   required 
                   className="w-full p-3 rounded-lg bg-white/10 border border-white/20 focus:outline-none focus:ring-2 focus:ring-white/50" 
-                  placeholder="Hello John, I'd like to discuss."
+                  placeholder="Hello Akhil, I'd like to discuss."
                 ></textarea>
               </div>
               <button 
