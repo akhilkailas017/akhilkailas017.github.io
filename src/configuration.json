@@ -1,13 +1,13 @@
 {
   "personal": {
-    "name": "John Doe",
+    "name": "Akhil Kailas",
     "title": "Web & Blockchain Developer",
     "description": "I build modern web applications and smart contracts using modern tech like MERN, TypeScript, Solidity and Hyperledger.",
-    "email": "john@example.com",
-    "location": "Bangalore, India"
+    "email": "akhilkailas2001@gmail.com",
+    "location": "Alappuzha, Kerala, India"
   },
   "hero": {
-    "heading": "John Doe",
+    "heading": "Akhil Kailas",
     "subheading": "Web & Blockchain Developer",
     "description": "I build modern web applications and smart contracts using modern tech like MERN, TypeScript, Solidity and Hyperledger.",
     "primaryButtonText": "View My Work",
