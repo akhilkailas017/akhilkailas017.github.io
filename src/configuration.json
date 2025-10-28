@@ -21,10 +21,12 @@
         "title": "Development",
         "color": "primary",
         "skills": [
-          { "name": "JavaScript", "level": 95 },
-          { "name": "MEAN Stack", "level": 90 },
-          { "name": "TypeScript", "level": 85 },
-          { "name": "Tailwind CSS", "level": 92 }
+          { "name": "TypeScript", "level": 95 },
+          { "name": "Express", "level": 95 },
+          { "name": "Angular", "level": 80 },
+          { "name": "React", "level": 80 },
+          { "name": "NodeJs", "level": 85 },
+          { "name": "MongoDB", "level": 92 }
         ]
       },
       {
@@ -38,39 +40,36 @@
       }
     ],
     "otherTechnologies": [
-      "React.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "PostgreSQL",
       "Docker",
+      "Postman",
+      "Vercel",
       "AWS",
       "Git"
     ]
   },
   "projects": [
     {
-      "title": "DeFi Lending Platform",
-      "description": "A decentralized finance platform for peer-to-peer lending built with Solidity and React.",
+      "title": "Waste Management dApp",
+      "description": "This project demonstrates how blockchain can enable transparency, traceability, and efficiency across multiple organizations involved in the waste management cycle.",
       "image": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
-      "tags": ["Solidity", "React", "Web3.js"],
-      "link": "#",
+      "tags": ["ReactJS", "Vite", "Tailwind","Node","Express","Hyperledger Fabric","Docker"],
+      "link": "https://github.com/akhilkailas017/Waste-Management-dApp.git",
       "color": "primary"
     },
     {
-      "title": "Full-Stack E-commerce",
-      "description": "A modern e-commerce platform built with MERN stack and TypeScript.",
+      "title": "Tripmate",
+      "description": "Tripmate is a ride-sharing application designed to connect drivers and passengers seamlessly. Users can offer a ride or join an existing one, making travel more convenient and efficient. The application is built with a tech stack that ensures a robust and scalable solution.",
       "image": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
-      "tags": ["MongoDB", "Express", "React", "Node.js"],
-      "link": "#",
+      "tags": ["ReactJS", "Node", "Express", "MongoDB", "Docker"],
+      "link": "https://github.com/akhilkailas017/Tripmate-Ride-Sharing-App.git",
       "color": "primary"
     },
     {
-      "title": "Supply Chain DApp",
-      "description": "A blockchain-based supply chain tracking system using Hyperledger Fabric.",
+      "title": "Certificate DApp",
+      "description": "The Certificate DApp is a decentralized application that allows the issuance and verification of certificates securely on the blockchain. This DApp leverages Ethereum blockchain technology and smart contracts to ensure the integrity and authenticity of issued certificates. Built using React for the frontend and Solidity for the smart contract, this project ensures that certificate data remains tamper-proof and accessible to everyone.",
       "image": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
-      "tags": ["Hyperledger", "Node.js", "Docker"],
-      "link": "#",
+      "tags": ["React", "Ethereum", "Solidity", "MetaMask"],
+      "link": "https://github.com/akhilkailas017/Certificate-dApp.git",
       "color": "accent"
     }
   ],
@@ -83,62 +82,20 @@
         "Lead frontend development for core web products",
         "Improved performance and accessibility standards"
       ]
-    },
-    {
-      "title": "Blockchain Developer",
-      "company": "Chain Labs",
-      "period": "Jan 2020 - Feb 2022",
-      "responsibilities": [
-        "Smart contract development and audits",
-        "DApp integrations with frontend clients"
-      ]
-    },
-    {
-      "title": "Junior Web Developer",
-      "company": "Digital Solutions LLC",
-      "period": "Jun 2018 - Feb 2020",
-      "responsibilities": [
-        "Built front-end interfaces with React and TypeScript",
-        "Maintained and updated existing codebases"
-      ]
     }
   ],
   "education": [
     {
-      "degree": "B.Sc. Computer Science",
-      "institution": "University",
-      "period": "2016 - 2020",
-      "description": "Focus on algorithms, systems and distributed computing."
+      "degree": "PG Diploma in Blockchain",
+      "institution": "Kerala Blockchain Academy",
+      "period": "2025 - 2025",
+      "description": "Blockchain"
     },
     {
-      "degree": "B.Sc. Computer Science",
-      "institution": "University",
-      "period": "2016 - 2020",
-      "description": "Focus on algorithms, systems and distributed computing."
-    },
-    {
-      "degree": "B.Sc. Computer Science",
-      "institution": "University",
-      "period": "2016 - 2020",
-      "description": "Focus on algorithms, systems and distributed computing."
-    },
-    {
-      "degree": "B.Sc. Computer Science",
-      "institution": "University",
-      "period": "2016 - 2020",
-      "description": "Focus on algorithms, systems and distributed computing."
-    },
-    {
-      "degree": "B.Sc. Computer Science",
-      "institution": "University",
-      "period": "2016 - 2020",
-      "description": "Focus on algorithms, systems and distributed computing."
-    },
-    {
-      "degree": "B.Sc. Computer Science",
-      "institution": "University",
-      "period": "2016 - 2020",
-      "description": "Focus on algorithms, systems and distributed computing."
+      "degree": "B Tech Computer Science",
+      "institution": "College of Engineering and Management Punnapra Alappuzha",
+      "period": "2019 - 2023",
+      "description": "B Tech"
     }
   ],
   "certifications": [
@@ -164,12 +121,12 @@
   "contact": {
     "heading": "Get in touch",
     "description": "I'm available for freelance projects and full-time opportunities. Let's connect!",
-    "email": "john@example.com",
-    "location": "Bangalore, India"
+    "email": "akhilkailas2001@gmail.com",
+    "location": "Alappuzha, Kerala, India"
   },
   "footer": {
-    "copyright": "© 2023 John Doe. All rights reserved.",
-    "builtWith": "Built with Lenis, Lazysizes, and Tailwind CSS"
+    "copyright": "© 2025 Akhil Kailas. All rights reserved.",
+    "builtWith": "Built with Vite React"
   },
   "navigation": [
     { "label": "Home", "href": "#home" },
