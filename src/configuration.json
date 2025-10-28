@@ -75,12 +75,14 @@
   ],
   "experience": [
     {
-      "title": "Senior Frontend Engineer",
-      "company": "Acme Inc",
-      "period": "Mar 2022 - Present",
+      "title": "Junior Software Developer",
+      "company": "Xpeditions IT Solutions Private Limited",
+      "period": "Dec 2024 - Present",
       "responsibilities": [
-        "Lead frontend development for core web products",
-        "Improved performance and accessibility standards"
+        "Developed and maintained backend services and APIs to support front-end applications, ensuring scalability and optimal performance.",
+        "Implemented and managed automation testing scripts to streamline quality assurance processes and reduce manual testing efforts.",
+        "Collaborated with cross-functional teams to integrate backend systems with user-facing front-end interfaces, enhancing the overall user experience.",
+        "Improved performance and accessibility standards across multiple web applications, resulting in better load times and improved usability."
       ]
     }
   ],
