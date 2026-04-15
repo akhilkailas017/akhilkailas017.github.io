@@ -16,37 +16,38 @@
     "secondaryButtonLink": "#contact"
   },
   "skills": {
-    "categories": [
-      {
-        "title": "Development",
-        "color": "primary",
-        "skills": [
-          { "name": "TypeScript", "level": 95 },
-          { "name": "Express", "level": 95 },
-          { "name": "Angular", "level": 80 },
-          { "name": "React", "level": 80 },
-          { "name": "NodeJs", "level": 85 },
-          { "name": "MongoDB", "level": 92 }
-        ]
-      },
-      {
-        "title": "Blockchain Development",
-        "color": "accent",
-        "skills": [
-          { "name": "Solidity", "level": 88 },
-          { "name": "Hyperledger", "level": 80 },
-          { "name": "Smart Contracts", "level": 90 }
-        ]
-      }
-    ],
-    "otherTechnologies": [
-      "Docker",
-      "Postman",
-      "Vercel",
-      "AWS",
-      "Git"
-    ]
-  },
+  "items": [
+    { "name": "JavaScript", "level": 95 },
+    { "name": "TypeScript", "level": 95 },
+    { "name": "Node.js", "level": 90 },
+    { "name": "Express", "level": 90 },
+    { "name": "React", "level": 85 },
+    { "name": "Angular", "level": 80 },
+
+    { "name": "HTML", "level": 95 },
+    { "name": "CSS", "level": 90 },
+    { "name": "Tailwind", "level": 90 },
+    { "name": "Bootstrap", "level": 85 },
+
+    { "name": "MongoDB", "level": 92 },
+    { "name": "PostgreSQL", "level": 80 },
+    { "name": "Redis", "level": 75 },
+
+    { "name": "Mocha", "level": 75 },
+    { "name": "Chai", "level": 75 },
+    { "name": "k6", "level": 70 },
+
+    { "name": "Solidity", "level": 88 },
+    { "name": "Ethereum", "level": 85 },
+    { "name": "Hyperledger Fabric", "level": 80 },
+
+    { "name": "Docker", "level": 85 },
+    { "name": "Vercel", "level": 90 },
+    { "name": "Render", "level": 80 },
+    { "name": "Git", "level": 95 }
+  ],
+  "otherTechnologies": ["VS Code", "Postman"]
+},
   "projects": [
     {
       "title": "Waste Management dApp",
